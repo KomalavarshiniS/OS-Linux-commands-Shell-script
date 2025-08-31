@@ -42,20 +42,19 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![alt text](<WhatsApp Image 2025-08-29 at 17.59.21_6a75cc4f.jpg>)
-
+![alt text](<WhatsApp Image 2025-08-29 at 17.59.21_880e366e.jpg>)
 
 
 cat < file2
 ## OUTPUT
-![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_07298f76.jpg>)
-
+![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_05f9f745.jpg>)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_28216bae.jpg>)
  
- ![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_dab355bc.jpg>)
+
 comm file1 file2
  ## OUTPUT
 
