@@ -42,25 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![alt text](<WhatsApp Image 2025-08-29 at 17.59.21_6a75cc4f.jpg>)
 
 
 
 cat < file2
 ## OUTPUT
+![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_07298f76.jpg>)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
  
+ ![alt text](<WhatsApp Image 2025-08-29 at 17.59.22_dab355bc.jpg>)
 comm file1 file2
  ## OUTPUT
 
- 
+ ![alt text](<WhatsApp Image 2025-08-29 at 17.59.23_dc30f9d1.jpg>)
 diff file1 file2
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.02.07_5b0d0e94.jpg>)
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -83,24 +86,24 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.44_7ebc7ca4.jpg>)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.44_f6102fcc.jpg>)
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.45_616e6b7b.jpg>)
 
 cat < newfile 
 ```
 Hello world
 hello world
 ^d
-````
+```
 cat > newfile 
 Hello world
 hello world
@@ -108,7 +111,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.45_cf740200.jpg>)
 
 grep hello newfile 
 ## OUTPUT
@@ -119,29 +122,29 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.45_a5dab47e.jpg>)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.45_109d37ae.jpg>)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.01.45_2c04ee31.jpg>)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-24 at 18.52.31_1ae8d506.jpg>)
 
 grep -w -n world newfile   
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.04_5f6b5f94.jpg>)
 cat < newfile 
 ```
 Hello world
@@ -164,7 +167,7 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.05_8bc31089.jpg>)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
@@ -175,48 +178,48 @@ egrep -w '(H|h)ell[a-z]' newfile
 ## OUTPUT
 
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.05_33925dca.jpg>)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.06_5ed7a30a.jpg>)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.06_24cbe0d8.jpg>)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.05_8a36f67c.jpg>)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_10b578ec.jpg>)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_65cd7936.jpg>)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_935604f8.jpg>)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_3a4b7077.jpg>)
 egrep l{2} newfile
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_76f92a7d.jpg>)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![alt text](<WhatsApp Image 2025-08-29 at 18.35.07_8279da5f.jpg>)
 
 cat > file23
 ```
@@ -235,80 +238,81 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_58e36a77.jpg>)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_bb019940.jpg>)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_31109491.jpg>)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_c4132a39.jpg>)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_82c48264.jpg>)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_cfdc1b4b.jpg>)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.44_abd62463.jpg>)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_10b4550a.jpg>)
 
 
 seq 10 
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_f748d3db.jpg>)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_3b20aa57.jpg>)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_c7bc53fe.jpg>)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_4bf5bb56.jpg>)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_ba6b174a.jpg>)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_9905f812.jpg>)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.45_2ef8dc7a.jpg>)
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_4e17911c.jpg>)
 #Sorting File content
 cat > file21
 ```
@@ -320,7 +324,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_30e30686.jpg>)
 
 cat > file22
 ```
@@ -334,13 +338,13 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_09a5961f.jpg>)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_66904850.jpg>)
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -357,12 +361,12 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_dfd4a0f9.jpg>)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-
+![alt text](<WhatsApp Image 2025-08-31 at 17.00.46_ae2bda95.jpg>)
 
 #Backup commands
 tar -cvf backup.tar *
