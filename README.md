@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="775" height="38" alt="image" src="https://github.com/user-attachments/assets/aec705d7-453c-4a9b-b500-c7c8e1320766" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -371,6 +371,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="479" height="307" alt="image" src="https://github.com/user-attachments/assets/fa48eb18-c2d7-4d5d-880d-ef0e1b39f38f" />
 
 mkdir backupdir
  
@@ -380,18 +381,22 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="570" height="403" alt="image" src="https://github.com/user-attachments/assets/7364a8d0-d9c8-4e4c-bcf9-44e5b6a5d198" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="972" height="376" alt="image" src="https://github.com/user-attachments/assets/1b756675-9de3-44e8-83a8-ae15fc932af6" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-10-19 at 06 37 07_364c98e3](https://github.com/user-attachments/assets/39ba5d63-cf26-4e82-b455-ddf2e072dace)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 09_6e0fe0cc](https://github.com/user-attachments/assets/48120b85-555a-4458-a3a5-429e19bb2c66)
 
  
 # Shell Script
@@ -403,7 +408,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+ ![WhatsApp Image 2025-10-19 at 06 37 10_2a972517](https://github.com/user-attachments/assets/b86f719a-b8ef-4c7a-8092-088b5e6f849e)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -414,6 +420,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 14_48d40709](https://github.com/user-attachments/assets/1ca9a1f7-d615-45fe-a465-87c6e4e0e28c)
 
 
 cat < scriptest.sh 
@@ -453,9 +460,11 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+ ![WhatsApp Image 2025-10-19 at 06 37 22_f3c4d6ea](https://github.com/user-attachments/assets/7b6e6d2e-0699-4810-bd74-911efe842acb)
+
 ls file1
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 22_f3c4d6ea](https://github.com/user-attachments/assets/7e368970-3768-4ffa-817b-8b9665cbcac1)
 
 echo $?
 ## OUTPUT 
@@ -464,12 +473,14 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![WhatsApp Image 2025-10-19 at 06 37 22_f3c4d6ea](https://github.com/user-attachments/assets/a4ebe48f-e994-468f-bd88-362c7b968289)
+
 abcd
  
 echo $?
  ## OUTPUT
 
+![WhatsApp Image 2025-10-19 at 06 37 22_f3c4d6ea](https://github.com/user-attachments/assets/433ee044-6e46-485a-a5c6-5439f66c4a25)
 
  
 # mis-using string comparisons
@@ -500,7 +511,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 48_905ca523](https://github.com/user-attachments/assets/6f0a987a-4c87-4a0f-a40f-1bde13bd4c22)
 
 
 
@@ -508,6 +520,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 52_77597857](https://github.com/user-attachments/assets/3f14e159-e9df-42d9-be34-c8ea7c6b2621)
 
 
 # check file ownership
@@ -535,6 +548,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 38 40_bc99b3b2](https://github.com/user-attachments/assets/dcf71c28-01c4-43e1-a979-ac80fc657866)
 
 # check if with file location
 cat>ifnested.sh 
@@ -581,6 +595,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 38 06_8f8c2da3](https://github.com/user-attachments/assets/1d5c4cc7-c6ec-473e-8011-98a7653030b7)
 
 
 
@@ -625,6 +640,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![WhatsApp Image 2025-10-19 at 06 37 53_4a783fc3](https://github.com/user-attachments/assets/8963954d-3771-41c2-bff8-b371128e7e43)
 
 # check if a file
 cat > ifnested.sh 
@@ -702,6 +718,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 39 05_ce10e065](https://github.com/user-attachments/assets/9f743bad-fa61-4638-85c9-95bda0c1673b)
 
 
 # testing compound comparisons
@@ -737,7 +754,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![WhatsApp Image 2025-10-19 at 06 38 55_a0b90266](https://github.com/user-attachments/assets/94c3a6aa-44a5-4ae0-844f-6e528be6bf04)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -752,7 +770,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![WhatsApp Image 2025-10-19 at 06 39 06_b83de1ce](https://github.com/user-attachments/assets/b929a139-2b86-41b6-9775-3941b388d1dd)
+
  
 cat untiltest.sh 
 ```bash
@@ -766,7 +785,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ![WhatsApp Image 2025-10-19 at 06 39 08_a0f19b7b](https://github.com/user-attachments/assets/c6fe7fa4-ef31-4a2c-b6a9-cce3fa8f5b9a)
+
  
 cat forin1.sh 
 ```bash
@@ -780,7 +800,8 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 28_7cad6bdd](https://github.com/user-attachments/assets/a545c590-95b2-402b-a34f-731bc1faf400)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -794,6 +815,7 @@ done
 $ chmod 755 forin2.sh
  
 cat forin2.sh 
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -805,7 +827,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 29_f2557656](https://github.com/user-attachments/assets/cc7c224d-2988-4453-ad46-c4126aaaf144)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -829,6 +852,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 29_6e6e6d9c](https://github.com/user-attachments/assets/0ee93838-ba57-4f42-9d3d-9163c02780b9)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -850,6 +875,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="697" height="233" alt="image" src="https://github.com/user-attachments/assets/3ab40f48-b075-4b54-abe1-4b92e46bdc5d" />
 
 
 cat forctype.sh 
@@ -864,6 +890,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 17_dad35214](https://github.com/user-attachments/assets/ae762d48-da10-4037-8387-8ed108d37e5e)
 
 cat forctype1.sh 
 ```bash
@@ -877,6 +904,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 18_445fc830](https://github.com/user-attachments/assets/ef453e34-7286-4113-bbf2-5bed87ed132f)
 
 cat fornested1.sh 
 ```bash
@@ -896,7 +924,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 22_be6f139c](https://github.com/user-attachments/assets/fafa980c-0606-418b-b75e-01b0732d1e1e)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -916,7 +945,8 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 23_24698b25](https://github.com/user-attachments/assets/82519b71-84a3-47c3-acb9-08791b659a3c)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -937,7 +967,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 26_85dca63a](https://github.com/user-attachments/assets/22bab4c0-e5f8-4a85-8116-f9ec3dc560f8)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -951,6 +982,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 25_ddac34ab](https://github.com/user-attachments/assets/36645d09-3114-4431-ae06-49c84cf88248)
 
 
  cat exread1.sh
@@ -963,6 +995,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 25_d77e624e](https://github.com/user-attachments/assets/2f5e3bec-5603-436d-822e-0490ab19740f)
 
 
 
@@ -986,10 +1019,12 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 24_0e9716c0](https://github.com/user-attachments/assets/14c1dbf8-ae44-49a8-a6a9-b0a1ece71c65)
+
  ./funcex.sh 1 2
 
- 
+ <img width="775" height="38" alt="image" src="https://github.com/user-attachments/assets/cefde3b1-2d77-407c-9bb1-0c6c1a5aa2cc" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -999,9 +1034,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 15_d26661e8](https://github.com/user-attachments/assets/93091437-039c-40c6-bcf5-b2eefd08d1ec)
+
  
  cat argshift1.sh
 ```bash
@@ -1017,8 +1053,10 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![WhatsApp Image 2025-10-19 at 06 40 15_d57cb498](https://github.com/user-attachments/assets/d64d8e0a-934f-478b-94b4-8c8aafd0d89f)
+
  
 cat argshift.sh
 ```bash
@@ -1030,9 +1068,11 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+
+## OUTPUT
+ ![WhatsApp Image 2025-10-19 at 06 40 14_59a49e38](https://github.com/user-attachments/assets/22f57e0a-6bdb-4d38-a7be-b8f327fbb4ae)
+
  
 cat > nc.awk
 ```bash
@@ -1063,7 +1103,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![WhatsApp Image 2025-10-19 at 06 40 13_7393b75a](https://github.com/user-attachments/assets/77a3b0eb-5883-4c90-a088-de33379a00bb)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1091,6 +1132,7 @@ fi
 ```
 ## OUTPUT 
 
+![WhatsApp Image 2025-10-19 at 06 40 12_70dc04eb](https://github.com/user-attachments/assets/87bf4bd3-b48d-4630-accb-7f9325b2448c)
 
 # RESULT:
 The Commands are executed successfully.
